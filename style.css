@@ -27,7 +27,7 @@ ul {
     justify-content: space-between;
     height: 650px;
     width: 1440px;
-    background-image: url("Rectangle 1.png");
+    background-image: url("static/Rectangle 1.png");
 }
 
 .header-logo {
