@@ -7,11 +7,16 @@ ul {
 }
 
 .page {
-    height: 100%
-}
+    height: 100%;
 
+}
+.body {
+    display: flex;
+    justify-content: space-around;
+}
 .page-body {
     min-width: 650px;
+    max-width: 1440px;
     min-height: 100%;
     margin: 0;
     padding: 0;
@@ -61,14 +66,14 @@ ul {
     padding: 0 0 0 100px;
 }
 .main-section-overhead{
-    position: absolute;
-    top: 384px;
-    left: 63px;
+    position: relative;
+    bottom: 266px;
     width: 523px;
     height: 366px;
     background-color: white;
     box-shadow: 0 4px 100px rgba(0, 0, 0, 0.1);
     padding: 96px 156px 75px 62px;
+    margin-left: -37px;
 }
 
 .main-section-overhead-h2 {
@@ -120,7 +125,7 @@ ul {
     margin: 0;
 }
 .main-section-features{
-    margin-top: 399px;
+    margin-top: -138px;
 }
 
 .main-section-features-list {
@@ -297,4 +302,74 @@ ul {
     font-size: 14px;
     line-height: 24px;
     color: rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    width: 1234px;
+    height: 575px;
+    margin: 251px 0 0 0;
+    padding: 96px 103px 63px 103px;
+    background: #F7F7F7;
+}
+
+.footer-section-menu-list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 117px;
+}
+
+.footer-section-menu-h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 0 16px 0;
+}
+
+
+.footer-section-menu-h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0 48px 85px 0 ;
+}
+
+.footer-section-submenu {
+    padding: 0;
+}
+
+.footer-section-submenu > li{
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 24px;
+}
+.footer-section-submenu-h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0 0 26px 0;
+}
+
+.footer-section-credits {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+}
+
+.footer-section-credits-p {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer-section-credits-list {
+    display: flex;
+}
+
+.footer-section-credits-list > li {
+    margin-left: 48px;
 }
