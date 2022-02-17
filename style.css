@@ -106,7 +106,6 @@ ul {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-
 }
 
 .main-section-overhead-button-span {
@@ -147,6 +146,57 @@ ul {
 }
 
 .main-section-features-a {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    color: var(--em-color)
+}
+
+.main-section-facilities-h2 {
+    margin: 243px 0 0 100px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.main-section-facilities-wrapper {
+    display: flex;
+    flex-flow: column;
+}
+
+.main-section-facilities-list {
+    margin: 108px 0 0 0;
+    padding-left: 100px;
+    padding-right: 102px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 46px;
+}
+
+.main-section-facilities-img {
+    height: 32px;
+    align-self: start;
+}
+
+.main-section-facilities-h3 {
+    margin: 64px 0 0 0;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.main-section-facilities-p {
+    margin: 31px 0 16px 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.main-section-facilities-a {
+    margin-top: auto;
     font-size: 18px;
     font-weight: bold;
     line-height: 22px;
