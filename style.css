@@ -1,0 +1,154 @@
+:root {
+    --em-color: #F78065
+}
+
+ul {
+    list-style: none;
+}
+
+.page {
+    height: 100%
+}
+
+.page-body {
+    min-width: 650px;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    align-content: start;
+
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    height: 650px;
+    width: 1440px;
+    background-image: url("Rectangle 1.png");
+}
+
+.main-header-logo {
+    height: 32px;
+    margin-top: 30px;
+    margin-left: 122px;
+}
+
+.main-header-usermenu-wrapper {
+    display:flex;
+    height: 53px;
+    width: 86px;
+    background-color: white;
+    border-radius: 26.5px;
+    padding: 0;
+    margin-top: 30px;
+    margin-right: 122px;
+}
+.main-header-usermenu{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin:10px 14px 11px 14px;
+}
+
+.main-header-user-img{
+    margin-left: 2px;
+}
+
+.main-section-overhead{
+    position: absolute;
+    top: 384px;
+    left: 63px;
+    width: 523px;
+    height: 366px;
+    background-color: white;
+    box-shadow: 0 4px 100px rgba(0, 0, 0, 0.1);
+    padding: 96px 156px 75px 62px;
+}
+
+.main-section-overhead-h2 {
+    margin: 0 0 0 2px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 49px;
+}
+
+.main-section-overhead-emphasize {
+    font-style: normal;
+    color: var(--em-color)
+}
+
+.main-section-overhead-p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 0.6;
+
+    margin-top: 29px;
+    margin-bottom: 29px;
+    margin-left: 2px;
+}
+
+.main-section-overhead-button {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 65px;
+    background-color: var(--em-color);
+    border: none;
+    color: white;
+    padding: 12px 24px 12px 16px;
+
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+.main-section-overhead-button-span {
+    align-self: center;
+    margin: 0 0 0 8px;
+}
+.main-section-overhead-button-img {
+    align-self: center;
+    margin: 0;
+}
+.main-section-features{
+    margin-top: 399px;
+}
+
+.main-section-features-list {
+    margin: 0;
+    padding-left: 119px;
+    padding-right: 81px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 41px;
+}
+
+.main-section-features-h3 {
+    margin: 84px 0 0 0;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.main-section-features-p {
+    margin: 24px 0 24px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.main-section-features-a {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    color: var(--em-color)
+}
